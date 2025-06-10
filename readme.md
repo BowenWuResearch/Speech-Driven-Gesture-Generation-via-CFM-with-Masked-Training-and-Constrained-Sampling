@@ -10,16 +10,16 @@ For rendering on Ubuntu\
 python=3.11\
 `conda create -n cfm python=3.11`
 
+Activate
+`conda activate cfm`
+
 For rendering\
 `conda install libstdcxx-ng -c conda-forge`
 
 For cuda-toolkit\
 `conda install cuda-toolkit -c nvidia/label/cuda-12.1.1`
 
-Pytorch installation\
-`pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121`
-
-Other packages\
+Packages\
 `pip install -r requirements.txt`
 
 Checkpoints and files for rendering\
