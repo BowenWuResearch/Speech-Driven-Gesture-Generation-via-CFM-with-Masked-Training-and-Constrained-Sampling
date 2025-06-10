@@ -47,7 +47,7 @@ def parse_args():
     p.add_argument(
         '--overlap-size',
         type=int,
-        default=30,
+        default=32,
         help='Overlap size between consecutive windows.'
     )
     p.add_argument(

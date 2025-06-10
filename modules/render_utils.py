@@ -352,3 +352,5 @@ def render_smplx_sequences(
         video_filepath = Path(output_dir) / f'{output_name}.mp4'
         add_audio_to_video(silent_video_filepath, audio_filepath, video_filepath)
         os.remove(str(silent_video_filepath))
+
+    return video_filepath

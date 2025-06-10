@@ -24,7 +24,8 @@ class LDA(nn.Module):
         use_v2=True,
         use_preln=False,
         bias=False,
-        dilation_cycle=[0, 1, 2]
+        dilation_cycle=[0, 1, 2],
+        **kwargs
     ):
         super().__init__()
         self.input_projection = Conv1dLayer(pose_dim, residual_channels, 1)

@@ -7,7 +7,8 @@ For rendering on Ubuntu\
 `sudo apt install xvfb ffmpeg -y`
 
 ### Conda env
-python=3.11
+python=3.11\
+`conda create -n cfm python=3.11`
 
 For rendering\
 `conda install libstdcxx-ng -c conda-forge`
@@ -21,9 +22,8 @@ Pytorch installation\
 Other packages\
 `pip install -r requirements.txt`
 
-## Quick start
-1. Download checkpoints from [here](https://www.dropbox.com/scl/fi/3tthgolqh3i8g0fhrj9pm/250320.zip?rlkey=22wdfmny1mn0okj3rm7kuv963&st=i6fa5yj3&dl=0).
-Put it to `./assets/release/xxx.zip` and unzip to the current directory.
-2. Download smplx model from [here](https://smpl-x.is.tue.mpg.de/).
-Downlaod SMPL-X 2020 neutral and put it to `./modules/smplx_models/smplx/SMPLX_NEUTRAL_2020.npz`
-3. Run: `python generate_from_wav.py`
+Checkpoints and files for rendering\
+`git lfs pull`
+
+## Gradio Demo
+Run: `python demo.py`
