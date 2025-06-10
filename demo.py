@@ -149,8 +149,6 @@ def generate_from_audio(audio, seed, inpainting=False):
 
 with gr.Blocks() as demo:
     gr.Markdown('# Speech-driven Gesture Generator')
-    gr.Markdown('Generation can take ~60 seconds. Please be patient.')
-    
     with gr.Row(equal_height=True):
         with gr.Column():
             audio_input = gr.Audio(
