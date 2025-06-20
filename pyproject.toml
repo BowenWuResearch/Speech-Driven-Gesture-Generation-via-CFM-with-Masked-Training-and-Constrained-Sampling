@@ -28,5 +28,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://bowenwuresearch.github.io/Co-speech-gesture-generation-using-conditional-flow-matching-with-masked-training/"
-Github = "https://github.com/BowenWuResearch/Co-speech-gesture-generation-using-conditional-flow-matching-with-masked-training"
+Homepage = "https://bowenwuresearch.github.io/Speech-Driven-Gesture-Generation-via-CFM-with-Masked-Training-and-Constrained-Sampling"
+Github = "https://github.com/BowenWuResearch/Speech-Driven-Gesture-Generation-via-CFM-with-Masked-Training-and-Constrained-Sampling"
