@@ -1,5 +1,4 @@
-# Co-speech-gesture-generation-using-conditional-flow-matching-with-masked-training
-A conditional flow matching model for co-speech gesture generation, with masked training for motion conditioned generation. 
+# Speech-Driven Gesture Generation via Conditional Flow Matching with Masked Training and Constrained Sampling
 
 ## Dependencies
 ### For Ubuntu
