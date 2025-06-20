@@ -4,7 +4,7 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from .transformer.tisa_transformer import TisaTransformer
+from modules.transformer.tisa_transformer import TisaTransformer
 from diffusers.models.activations import get_activation
 from math import sqrt
 from typing import Optional

@@ -2,8 +2,8 @@ import torch as th
 from torch import Tensor
 import torch.nn as nn
 import torch.nn.functional as F
-from .nn import *
-from .dataset import WINDOW_SIZE
+from modules.nn import *
+from modules.dataset import WINDOW_SIZE
 
 
 class LDA(nn.Module):

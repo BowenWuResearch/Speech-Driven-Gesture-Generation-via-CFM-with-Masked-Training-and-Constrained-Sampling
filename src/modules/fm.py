@@ -8,9 +8,9 @@ import torch.nn.functional as F
 from tqdm import tqdm
 from loguru import logger
 from contextlib import nullcontext
-from .dataset import POSE_DIM, FACE_DIM
-from .model import LDA
-from .smplx_models.smplx.joint_names import SMPLX_JOINT_NAMES, SMPL_JOINT_NAMES
+from modules.dataset import POSE_DIM, FACE_DIM
+from modules.model import LDA
+from modules.smplx_models.smplx.joint_names import SMPLX_JOINT_NAMES, SMPL_JOINT_NAMES
 from typing import Callable
 # 1 indicates smpl joint in x data
 joint_mask = th.zeros(len(SMPLX_JOINT_NAMES), 3) # (n_joints, 3)

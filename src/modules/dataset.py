@@ -12,8 +12,8 @@ from torch.nn.utils.rnn import pad_sequence
 import pandas as pd
 from loguru import logger
 import librosa
-from .audio_feature_extraction import load_audio, preprocess_audio
-from .augment_utils import (
+from modules.audio_feature_extraction import load_audio, preprocess_audio
+from modules.augment_utils import (
     mirror_smplx_poses,
     resample_data
 )

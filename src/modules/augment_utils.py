@@ -1,8 +1,8 @@
 import torch as th
 import numpy as np
 from scipy import interpolate
-from .smplx_models.smplx.joints import joints as JOINTS
-from .rotation_utils import (
+from modules.smplx_models.smplx.joints import joints as JOINTS
+from modules.rotation_utils import (
     axis_angle_to_matrix,
     matrix_to_axis_angle,
     matrix_to_euler_angles,

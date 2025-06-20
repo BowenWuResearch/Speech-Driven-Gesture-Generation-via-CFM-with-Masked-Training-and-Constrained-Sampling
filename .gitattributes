@@ -1,3 +1,0 @@
-modules/smplx_models/smplx/SMPLX_NEUTRAL_2020.npz filter=lfs diff=lfs merge=lfs -text
-chkpts/250320.pth filter=lfs diff=lfs merge=lfs -text
-chkpts/stats.pkl filter=lfs diff=lfs merge=lfs -text

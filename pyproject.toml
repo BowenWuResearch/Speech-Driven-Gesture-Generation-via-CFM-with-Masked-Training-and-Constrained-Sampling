@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfm-gesture"
+version = "0.1.0"
+authors = [
+  {name = "Bowen Wu", email = "bowen.wu@riken.jp"}
+]
+requires-python = ">=3.11"
+dependencies = [
+  "pandas==2.3.0",
+  "einops==0.8.1",
+  "tqdm==4.67.1",
+  "wandb==0.20.1",
+  "loguru==0.7.3",
+  "scipy==1.15.3",
+  "smplx==0.1.28",
+  "pyrender==0.1.45",
+  "trimesh==4.6.11",
+  "pyvirtualdisplay==3.0",
+  "librosa==0.11.0",
+  "matplotlib==3.10.3",
+  "pyloudnorm==0.1.1",
+  "diffusers==0.33.1",
+  "gradio==5.34.2"
+]
+
+[project.urls]
+Homepage = "https://bowenwuresearch.github.io/Co-speech-gesture-generation-using-conditional-flow-matching-with-masked-training/"
+Github = "https://github.com/BowenWuResearch/Co-speech-gesture-generation-using-conditional-flow-matching-with-masked-training"

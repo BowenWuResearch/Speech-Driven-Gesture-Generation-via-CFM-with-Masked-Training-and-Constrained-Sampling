@@ -278,7 +278,7 @@ def render_smplx_sequences(
     output_dir: Path = Path('.'),
     audio_filepath: Path = None,
     output_name: str = 'output',
-    model_folder='./modules/smplx_models',
+    model_folder='./assets/smplx_models',
     num_betas=300,
     num_expression_coeffs=100,
     max_n_cols=1,

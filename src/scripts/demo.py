@@ -175,4 +175,4 @@ with gr.Blocks() as demo:
 if __name__ == '__main__':
     # Register cleanup function to run when the program exits
     atexit.register(cleanup)
-    demo.launch(share=True)
+    demo.launch()

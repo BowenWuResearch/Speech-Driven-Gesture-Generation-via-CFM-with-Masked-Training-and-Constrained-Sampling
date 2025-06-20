@@ -5,8 +5,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from einops import rearrange
 from loguru import logger
-from .audio_feature_extraction import N_AUDIO_FEATS
-from .tensor_utils import interpnd, create_padding_mask
+from modules.audio_feature_extraction import N_AUDIO_FEATS
+from modules.tensor_utils import interpnd, create_padding_mask
 
 
 class ZeroEggsSpeechEncoder(nn.Module):
