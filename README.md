@@ -21,7 +21,7 @@ pip install -e .
 ```
 
 ### Download necessary files
-Download from [URL](https://www.dropbox.com/scl/fo/qa54em4p1u4140ueaajxl/AMuPnWQMyp5dfJqutI1JaA8?rlkey=yeh0bo0b7gnbw0cwk6c9b9iqj&st=q5ocibj6&dl=0) and place them as follows:
+Download from [URL](https://drive.google.com/drive/folders/13TG1igXPMdG48TgyI8Zfo_pYDV_xEfeO?usp=sharing) and place them as follows:
 ```
 chkpts/250320.pth
 chkpts/stats.pkl
