@@ -5,9 +5,6 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cfm-gesture"
 version = "0.1.0"
-authors = [
-  {name = "Bowen Wu", email = "bowen.wu@riken.jp"}
-]
 requires-python = ">=3.11"
 dependencies = [
   "pandas==2.3.0",
@@ -26,7 +23,3 @@ dependencies = [
   "diffusers==0.33.1",
   "gradio==5.34.2"
 ]
-
-[project.urls]
-Homepage = "https://bowenwuresearch.github.io/Speech-Driven-Gesture-Generation-via-CFM-with-Masked-Training-and-Constrained-Sampling"
-Github = "https://github.com/BowenWuResearch/Speech-Driven-Gesture-Generation-via-CFM-with-Masked-Training-and-Constrained-Sampling"
