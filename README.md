@@ -31,4 +31,4 @@ assets/smplx_models/smplx/SMPLX_NEUTRAL_2020.npz
 ```
 
 ## Gradio Demo
-Run: `python demo.py`
+Run: `python src/scripts/demo.py`
