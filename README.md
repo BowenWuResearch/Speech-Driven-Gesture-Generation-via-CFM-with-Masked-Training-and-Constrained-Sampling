@@ -1,6 +1,6 @@
 # Speech-Driven Gesture Generation via Conditional Flow Matching with Masked Training and Constrained Sampling
 
-Following instructions below you can host a webpage for generating gestures for your uploaded audio.
+Following instructions below you can host a webpage where you can generate gestures for your uploaded audio.
 
 ## Dependencies
 ### For Ubuntu
